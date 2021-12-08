@@ -26,16 +26,16 @@ def ReplyCheck(message: Message):
 infotext = (
     "**[{full_name}](tg://user?id={user_id})**\n"
     " > UserID: `{user_id}`\n"
-    " > First Name: `{first_name}`\n"
-    " > Last Name: `{last_name}`\n"
-    " > Username: {username}\n"
-    " > DC: {dc_id}\n"
-    " > Status: {status}\n"
-    " > Is Scam: {scam}\n"
-    " > Is Bot: {bot}\n"
-    " > Is Verified: {verifies}\n"
-    " > Is Contact: {contact}\n"
-    " > Total Groups In Common: {common}"
+    " > Gay's First Name: `{first_name}`\n"
+    " > Gay's Last Name: `{last_name}`\n"
+    " > Gay's Username: {username}\n"
+    " > Gay's DC: {dc_id}\n"
+    " > Gay's Status: {status}\n"
+    " > Is Gay Scammer: {scam}\n"
+    " > Is Gay Bot: {bot}\n"
+    " > Is Gay Verified: {verifies}\n"
+    " > Is Gay Contact: {contact}\n"
+    " > Total Groups With this Gay Common: {common}"
 )
 
 
