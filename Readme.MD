@@ -24,7 +24,7 @@ Enjoy Your Bot!!💝
 
 ## 🏃‍♂️ Easy Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IndiAnime/AkenoUserBot)
-
+[Session String](https://replit.com/@levinalab/Session-String-Generator#main.py)
 ### Mandatory Vars 📒
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
