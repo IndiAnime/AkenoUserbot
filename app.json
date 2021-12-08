@@ -1,5 +1,5 @@
 {
-  "name": "𝚂𝚊𝚋𝚎𝚛 𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
+  "name": "Akeno 𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
   "description": "Akeno, a telegram Anime userbot with MongoDB database",
   "env": {
     "API_ID": {
@@ -30,11 +30,6 @@
       "description": "Command handler.",
       "required": true,
       "value": "."
-    },
-    "BOT_LIST":{
-      "description": "List id of bot for trigger autoprotecc, separate by space.",
-      "required": true,
-      "value": "792028928 1232515770 1964681186"
     },
     "LOG_CHAT": {
       "description": "A private group id to store your logs.",
