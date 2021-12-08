@@ -58,7 +58,7 @@ def get_readable_time(seconds: int) -> str:
 async def alive(_, m):
     start_time = time.time()
     uptime = get_readable_time((time.time() - StartTime))
-    reply_msg = f"**[Akeno](https://github.com/IndiAnime/AkenoUserBot)**\n"
+    reply_msg = f"**[Akeno V1.0](https://github.com/IndiAnime/AkenoUserBot)**\n"
     reply_msg += f"__Python__: `{__python_version__}`\n"
     reply_msg += f"__@Pyrogram version__: `{__pyro_version__}`\n"
     end_time = time.time()
