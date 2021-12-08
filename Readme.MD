@@ -16,7 +16,7 @@ Don't forget to star this repo if you liked it.
 
 Enjoy Your Bot!!💝
 
-[![AKeno logo](https://telegra.ph/file/4c8b7654e0cff9d9cd0ee.jpg](https://t.me/indianimei)
+[![AKeno logo](https://telegra.ph/file/4c8b7654e0cff9d9cd0ee.jpg)
 
 # Support
 <a href="https://t.me/indianimein"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
