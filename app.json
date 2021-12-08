@@ -1,0 +1,50 @@
+{
+  "name": "𝚂𝚊𝚋𝚎𝚛 𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
+  "description": "Akeno, a telegram Anime userbot with MongoDB database",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
+    },
+    "SESSION": {
+      "description": "Get this value by running [python3 mysession.py] in Termux or local system.",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "This is for the database account, you can obtain it from mongodb.com.",
+      "required": true
+    },
+    "HEROKU_API": {
+      "description": "Your heroku api key if using heroku.",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your heroku app name if using heroku.",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command handler.",
+      "required": true,
+      "value": "."
+    },
+    "BOT_LIST":{
+      "description": "List id of bot for trigger autoprotecc, separate by space.",
+      "required": true,
+      "value": "792028928 1232515770 1964681186"
+    },
+    "LOG_CHAT": {
+      "description": "A private group id to store your logs.",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
