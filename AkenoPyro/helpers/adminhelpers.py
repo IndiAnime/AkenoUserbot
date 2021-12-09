@@ -4,7 +4,7 @@ from time import sleep, time
 
 from pyrogram.types import Message
 
-from AkenoUB import app
+from AkenoPyro import app
 
 
 async def CheckAdmin(message: Message):

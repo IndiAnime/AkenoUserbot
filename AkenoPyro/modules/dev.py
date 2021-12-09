@@ -7,7 +7,7 @@ import os
 import re
 import subprocess
 from io import StringIO
-from AkenoUB import app, CMD_HELP
+from AkenoPyro import app, CMD_HELP
 from pyrogram import filters
 
 CMD_HELP.update(

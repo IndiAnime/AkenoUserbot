@@ -2,9 +2,9 @@
 
 from pyrogram.types import Message, User
 from pyrogram import Client
-from AkenoUB.database.afkdb import get_afk_status
-from AkenoUB.database.pmpermitdb import get_approved_users, pm_guard
-import AkenoUB.database.welcomedb as AkenoDB
+from AkenoPyro.database.afkdb import get_afk_status
+from AkenoPyro.database.pmpermitdb import get_approved_users, pm_guard
+import AkenoPyro.database.welcomedb as AkenoDB
 import shlex
 
 

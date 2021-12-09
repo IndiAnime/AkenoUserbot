@@ -10,7 +10,7 @@ import logging
 import sys
 import time
 from pyrogram import Client, errors
-from config import API_HASH, API_ID, SESSION
+from config import API_HASH, API_ID, PYRO_SESSION
 import logging
 
 import logging
@@ -29,6 +29,6 @@ StartTime = time.time()
 
 API_ID = API_ID
 API_HASH = API_HASH
-SESSION = SESSION
-plugins = dict(root="AkenoUB/modules")
-app = Client(SESSION, api_id=API_ID, api_hash=API_HASH, plugins=plugins)
+PYRO_SESSION = PYRO_SESSION
+plugins = dict(root="AkenoPyro/modules")
+app = Client(PYRO_SESSION, api_id=API_ID, api_hash=API_HASH, plugins=plugins)

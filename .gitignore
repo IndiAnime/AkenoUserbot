@@ -1,4 +1,4 @@
 config.py
-*.session
-*.session-journal
+*.PYRO_SESSION
+*.PYRO_SESSION-journal
 __pycache__/

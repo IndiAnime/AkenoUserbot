@@ -1,12 +1,12 @@
 
-from AkenoUB import app
+from AkenoPyro import app
 from config import PREFIX
 
 from pyrogram import filters
 
-from AkenoUB.database.gmutedb import get_gmuted_users, gmute_user, ungmute_user
-from AkenoUB.helpers.pyrohelper import get_arg
-from AkenoUB.helpers.adminhelpers import CheckAdmin
+from AkenoPyro.database.gmutedb import get_gmuted_users, gmute_user, ungmute_user
+from AkenoPyro.helpers.pyrohelper import get_arg
+from AkenoPyro.helpers.adminhelpers import CheckAdmin
 
 
 @app.on_message(filters.command("gmute", PREFIX) & filters.me)

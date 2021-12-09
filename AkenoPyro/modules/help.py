@@ -1,9 +1,9 @@
 
 
 from pyrogram import filters
-from AkenoUB import app, HELP, CMD_HELP
+from AkenoPyro import app, HELP, CMD_HELP
 from config import PREFIX
-from AkenoUB.helpers.pyrohelper import get_arg
+from AkenoPyro.helpers.pyrohelper import get_arg
 
 HELP.update(
     {

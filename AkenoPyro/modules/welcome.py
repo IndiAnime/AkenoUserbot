@@ -3,9 +3,9 @@
 import re
 from pyrogram import filters
 
-from AkenoUB import app, CMD_HELP
-from AkenoUB.helpers.pyrohelper import get_arg, welcome_chat
-import AkenoUB.database.welcomedb as AkenoDB
+from AkenoPyro import app, CMD_HELP
+from AkenoPyro.helpers.pyrohelper import get_arg, welcome_chat
+import AkenoPyro.database.welcomedb as AkenoDB
 from config import PREFIX, LOG_CHAT
 
 

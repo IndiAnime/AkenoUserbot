@@ -8,9 +8,9 @@
 
 from pyrogram import idle, Client, filters
 from config import PREFIX
-from AkenoUB import app, LOGGER
+from AkenoPyro import app, LOGGER
 import logging
-from AkenoUB.modules import *
+from AkenoPyro.modules import *
 
 app.start()
 me = app.get_me()

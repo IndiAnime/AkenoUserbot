@@ -6,7 +6,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import Message
 from inspect import getfullargspec
-from AkenoUB import app
+from AkenoPyro import app
 from config import PREFIX
 
 

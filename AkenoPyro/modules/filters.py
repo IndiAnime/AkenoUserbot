@@ -1,10 +1,10 @@
 import re
 
 from pyrogram import filters
-from AkenoUB import app, CMD_HELP
+from AkenoPyro import app, CMD_HELP
 from config import PREFIX, LOG_CHAT
-from AkenoUB.helpers.pyrohelper import get_arg
-from AkenoUB.database.filtersdb import (
+from AkenoPyro.helpers.pyrohelper import get_arg
+from AkenoPyro.database.filtersdb import (
     add_filters,
     all_filters,
     del_filters,

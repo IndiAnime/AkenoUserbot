@@ -1,2 +1,2 @@
-worker: python3 -m AkenoUB
+worker: bash startup.sh
 

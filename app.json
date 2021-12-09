@@ -10,7 +10,7 @@
       "description": "Get this value from my.telegram.org.",
       "required": true
     },
-    "SESSION": {
+    "PYRO_SESSION": {
       "description": "Get this value by running [python3 mysession.py] in Termux or local system.",
       "required": true
     },

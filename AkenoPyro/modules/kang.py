@@ -8,8 +8,8 @@ from pyrogram import emoji, filters
 from pyrogram.raw.functions.messages import GetStickerSet
 from pyrogram.raw.types import InputStickerSetShortName
 from pyrogram.errors import YouBlockedUser, StickersetInvalid
-from AkenoUB.helpers.pyrohelper import get_args
-from AkenoUB import app, CMD_HELP
+from AkenoPyro.helpers.pyrohelper import get_args
+from AkenoPyro import app, CMD_HELP
 from config import PREFIX
 
 CMD_HELP.update(

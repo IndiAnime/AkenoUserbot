@@ -3,7 +3,7 @@ import requests
 import aiohttp
 from pyrogram import filters
 from pyrogram.types import Message
-from AkenoUB import app, CMD_HELP
+from AkenoPyro import app, CMD_HELP
 from config import PREFIX
 
 CMD_HELP.update(

@@ -6,9 +6,9 @@ from pyrogram.types import Message, ChatPermissions
 from pyrogram.errors import UserAdminInvalid
 from pyrogram.methods.chats.get_chat_members import Filters as ChatMemberFilters
 
-from AkenoUB import app, CMD_HELP, LOGGER
-from AkenoUB.helpers.pyrohelper import get_arg, get_args
-from AkenoUB.helpers.adminhelpers import CheckAdmin
+from AkenoPyro import app, CMD_HELP, LOGGER
+from AkenoPyro.helpers.pyrohelper import get_arg, get_args
+from AkenoPyro.helpers.adminhelpers import CheckAdmin
 from config import PREFIX
 
 CMD_HELP.update(

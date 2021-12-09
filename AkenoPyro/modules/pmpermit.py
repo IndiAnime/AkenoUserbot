@@ -3,9 +3,9 @@ from pyrogram import filters
 import asyncio
 
 from pyrogram.methods import messages
-from AkenoUB import app, CMD_HELP
-from AkenoUB.helpers.pyrohelper import get_arg, denied_users
-import AkenoUB.database.pmpermitdb as Zectdb
+from AkenoPyro import app, CMD_HELP
+from AkenoPyro.helpers.pyrohelper import get_arg, denied_users
+import AkenoPyro.database.pmpermitdb as Zectdb
 from config import PREFIX
 
 CMD_HELP.update(

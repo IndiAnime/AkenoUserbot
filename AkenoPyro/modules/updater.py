@@ -8,8 +8,8 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from pyrogram import filters
-from AkenoUB import app, CMD_HELP
-from AkenoUB.helpers.pyrohelper import get_arg
+from AkenoPyro import app, CMD_HELP
+from AkenoPyro.helpers.pyrohelper import get_arg
 
 CMD_HELP.update(
     {

@@ -3,13 +3,13 @@ import time
 from pyrogram import filters
 import asyncio
 
-from AkenoUB import app, CMD_HELP
+from AkenoPyro import app, CMD_HELP
 from config import PREFIX, LOG_CHAT
-from AkenoUB.helpers.pyrohelper import get_arg
-import AkenoUB.database.afkdb as Zect
-from AkenoUB.helpers.pyrohelper import user_afk
-from AkenoUB.modules.alive import get_readable_time
-from AkenoUB.helpers.utils import get_message_type, Types
+from AkenoPyro.helpers.pyrohelper import get_arg
+import AkenoPyro.database.afkdb as Zect
+from AkenoPyro.helpers.pyrohelper import user_afk
+from AkenoPyro.modules.alive import get_readable_time
+from AkenoPyro.helpers.utils import get_message_type, Types
 
 CMD_HELP.update(
     {
@@ -36,7 +36,7 @@ async def afk(client, message):
         reason = None
     else:
         reason = arg
-    await AkenoUB.set_afk(True, afk_time, reason)
+    await AkenoPyro.set_afk(True, afk_time, reason)
     await message.edit("**I'm goin' AFK**")
 
 
@@ -80,7 +80,7 @@ async def afk_mentioned(_, message):
 
 @app.on_message(filters.create(user_afk) & filters.outgoing)
 async def auto_unafk(_, message):
-    await AkenoUB.set_unafk()
+    await AkenoPyro.set_unafk()
     unafk_message = await app.send_message(message.chat.id, "**I'm no longer AFK**")
     global MENTIONED
     text = "**Total {} mentioned you**\n".format(len(MENTIONED))

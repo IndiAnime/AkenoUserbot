@@ -1,9 +1,9 @@
 
 from pyrogram import filters
 
-from AkenoUB import app, CMD_HELP
-from AkenoUB.helpers.pyrohelper import get_arg
-import AkenoUB.database.notesdb as AkenoDB
+from AkenoPyro import app, CMD_HELP
+from AkenoPyro.helpers.pyrohelper import get_arg
+import AkenoPyro.database.notesdb as AkenoDB
 from config import PREFIX, LOG_CHAT
 
 CMD_HELP.update(

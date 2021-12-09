@@ -6,10 +6,11 @@ import time
 import os
 from datetime import datetime
 from pyrogram import filters
-from AkenoUB import app, StartTime, CMD_HELP
+from AkenoPyro import app, StartTime, CMD_HELP
 from sys import version_info
 from config import ALIVE_IMG
 from pyrogram import __version__ as __pyro_version__
+from telethon import __version__ as __tele_version__
 from pyrogram.types import Message
 
 CMD_HELP.update(
@@ -60,7 +61,7 @@ async def alive(_, m):
     uptime = get_readable_time((time.time() - StartTime))
     reply_msg = f"**[Akeno V1.0](https://github.com/IndiAnime/AkenoUserBot)**\n"
     reply_msg += f"__Python__: `{__python_version__}`\n"
-    reply_msg += f"__@Pyrogram version__: `{__pyro_version__}`\n"
+    reply_msg += f"__Pyrogram version__: `{__pyro_version__}`\n"
     end_time = time.time()
     reply_msg += f"__Akeno uptime__: {uptime}"
     photo = ALIVE_IMG
