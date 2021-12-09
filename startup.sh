@@ -1,1 +1,1 @@
-python -m _pyrogram & python -m AkenoTelethon
+python -m AkenoPyro

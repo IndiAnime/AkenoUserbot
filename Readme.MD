@@ -24,11 +24,11 @@ Enjoy Your Bot!!💝
 
 ## 🏃‍♂️ Easy Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IndiAnime/AkenoUserBot)
-[PYRO_SESSION String](https://replit.com/@levinalab/PYRO_SESSION-String-Generator#main.py)
+[SESSION String](https://replit.com/@levinalab/SESSION-String-Generator#main.py)
 ### Mandatory Vars 📒
 ```
 [+] Make Sure You Add All These Mandatory Vars. 
-    [-] PYRO_SESSION  : Create your Pyrogram PYRO_SESSION key. 
+    [-] SESSION  : Create your Pyrogram SESSION key. 
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] APP_HASH :   You can get this value from https://my.telegram.org
     [-] MONGO_URI : Your MongoDatabase Uri From Cloud.mongodb.com

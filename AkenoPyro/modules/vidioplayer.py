@@ -3,11 +3,11 @@ import asyncio
 from pytgcalls import GroupCallFactory
 from pyrogram import filters, Client, idle
 from pyrogram.types import Message
-from config import API_ID, API_HASH, PYRO_SESSION
+from config import API_ID, API_HASH, SESSION
 from AkenoPyro import app, CMD_HELP
 from config import PREFIX
 
-app = Client(PYRO_SESSION, API_ID, API_HASH)
+app = Client(SESSION, API_ID, API_HASH)
 group_call_factory = GroupCallFactory(app, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM)
 VIDEO_CALL = {}
 

@@ -17,6 +17,3 @@ heroku3
 pytz
 humanize
 
-
-#TELETHON
-telethon
