@@ -6,12 +6,18 @@
 
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from AkenoUB import app
 from config import LOG_CHAT
 import asyncio
 import datetime
 import pytz
 import os
+
+
+app = Client(
+    api_id = int(os.environ["API_ID"]),
+    api_hash = os.environ["API_HASH"],
+    session_name = os.environ["SESSION"]
+) 
 
 TIME_ZONE = os.environ["TIME_ZONE", "Asia/Kolkata"]
 BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(' ')]
@@ -55,5 +61,4 @@ async def main_teletips():
                 await app.edit_message_text(int(CHANNEL_OR_GROUP_ID), MESSAGE_ID, xxx_teletips)
                 print(f"Last checked on: {last_update}")                
                 await asyncio.sleep(6300)
-                        
-app.run(main_teletips())
+    2
