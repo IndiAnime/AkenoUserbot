@@ -30,5 +30,5 @@ StartTime = time.time()
 API_ID = API_ID
 API_HASH = API_HASH
 SESSION = SESSION
-
-app = Client(SESSION, api_id=API_ID, api_hash=API_HASH)
+plugins = dict(root="AkenoUB/modules")
+app = Client(SESSION, api_id=API_ID, api_hash=API_HASH, plugins=plugins)

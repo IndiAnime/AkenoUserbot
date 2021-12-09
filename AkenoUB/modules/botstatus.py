@@ -6,18 +6,12 @@
 
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
-from config import LOG_CHAT
+from AkenoUB import app
 import asyncio
 import datetime
 import pytz
 import os
 
-
-app = Client(
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    session_name = os.environ["SESSION"]
-) 
 
 TIME_ZONE = os.environ["TIME_ZONE", "Asia/Kolkata"]
 BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(' ')]
