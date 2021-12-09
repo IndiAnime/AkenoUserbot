@@ -13,12 +13,11 @@ import datetime
 import pytz
 import os
 
-me = app.get_me()
 TIME_ZONE = os.environ["TIME_ZONE", "Asia/Kolkata"]
-BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST", "ErzaScarlet_Groupbot Makima_Devil_bot").split(' ')]
-CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID", LOG_CHAT])
-MESSAGE_ID = int(os.environ["MESSAGE_ID", 10])
-BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS" "{me.id}").split(' ')]
+BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(' ')]
+CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
+MESSAGE_ID = int(os.environ["MESSAGE_ID"])
+BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split(' ')]
 
 
 async def main_teletips():
