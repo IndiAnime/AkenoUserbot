@@ -12,7 +12,7 @@ async def progress_callback(current, total, bot: UserBot, message: Message):
         await message.edit(f"{humanize.naturalsize(current)} / {humanize.naturalsize(total)}")
 
 
-@UserBot.on_message(filters.command('upload', '.') & filters.me)
+@UserBot.on_message(filters.command("tr") & filters.me)
 async def upload_helper(bot: UserBot, message: Message):
     if len(message.command) > 1:
         await bot.send_document('self', message.command[1], progress=progress_callback, progress_args=(bot, message))
